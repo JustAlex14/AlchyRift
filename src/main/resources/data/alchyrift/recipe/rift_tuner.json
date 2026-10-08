@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " V ",
+    "K  "
+  ],
+  "key": {
+    "K": "minecraft:stick",
+    "S": "alchyrift:rift_shard",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:rift_tuner",
+    "count": 1
+  }
+}

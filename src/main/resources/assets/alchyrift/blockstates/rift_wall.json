@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "alchyrift:block/rift_wall",
+        "weight": 5
+      },
+      {
+        "model": "alchyrift:block/rift_wall_cracked_a",
+        "weight": 1
+      },
+      {
+        "model": "alchyrift:block/rift_wall_cracked_b",
+        "weight": 1
+      }
+    ]
+  }
+}

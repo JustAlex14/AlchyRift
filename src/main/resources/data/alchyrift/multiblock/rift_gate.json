@@ -1,0 +1,43 @@
+{
+  "core": "alchyrift:rift_anchor",
+  "front": "south",
+  "anchors": {"rift": [-1, 0, -2], "stabilizer": [-2, 0, 0]},
+  "layers": [
+    ["SSS", "SSS", "SSS"],
+    ["FrF", "...", "T.X"],
+    ["FrF", "___", "___"],
+    ["FKF", "___", "___"]
+  ],
+  "key": {
+    "S": {"block": "minecraft:stone_bricks", "name": "stone bricks (floor)"},
+    "F": {"block": "minecraft:stone_bricks", "name": "stone bricks (portal frame)"},
+    "K": {"block": "minecraft:amethyst_block", "name": "an amethyst block (top of the frame, above the portal)"},
+    "T": {"block": "alchyrift:rift_stabilizer", "name": "a rift stabilizer (front left corner)"},
+    "X": {"core": true},
+    "r": {"air": true},
+    ".": {"air": true},
+    "_": {"any": true}
+  },
+  "result": [
+    ["sss", "sss", "sss"],
+    ["ard", "...", "T.X"],
+    ["bre", "___", "___"],
+    ["ckg", "___", "___"]
+  ],
+  "result_key": {
+    "s": {"block": "minecraft:polished_blackstone_bricks"},
+    "r": {"keep": true},
+    "T": {"keep": true},
+    "X": {"keep": true},
+    ".": {"keep": true},
+    "_": {"keep": true},
+    "a": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "base"}},
+    "b": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "shaft"}},
+    "c": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "crown"}},
+    "d": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "base"}},
+    "e": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "shaft"}},
+    "g": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "crown"}},
+    "l": {"block": "alchyrift:rift_frame", "state": {"facing": "south", "part": "lintel"}},
+    "k": {"block": "alchyrift:rift_frame", "state": {"facing": "south", "part": "keystone"}}
+  }
+}

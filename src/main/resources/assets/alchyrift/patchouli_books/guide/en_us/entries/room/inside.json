@@ -1,0 +1,28 @@
+{
+  "name": "Inside",
+  "icon": "alchyrift:void_stone",
+  "category": "alchyrift:room",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Sixteen Paces",
+      "text": "Behind the door: a floor of $(thing)void stone$() and four walls, sixteen blocks a side. Nothing breaks them. I spent a day finding that out.$(br2)To leave, I walk into any wall. It tears where I come close, and lets me out by my gate."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nothing Here",
+      "text": "A shelter at last, and nobody to take it from me. Also no water. No soil I did not carry in. No rain, no night, no morning.$(br2)I asked for a world without them. I was given a world without $(thing)anything$(). Hence the $(l:supply/conduits)supply lines$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rules",
+      "text": "On the gate, a room's owner decides what may happen inside: monsters appearing, animals appearing, explosions breaking things.$(br2)All of it starts forbidden. I left it that way for a long time."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "It Keeps Going",
+      "text": "The room does not stop when I leave it. Furnaces burn and crops grow whether I watch or not.$(br2)I find that a comfort: something of mine that carries on without being asked to."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "core": "alchyrift:greater_rift_anchor",
+  "front": "south",
+  "anchors": {"rift": [-2, 1, -4], "stabilizer": [-4, 0, 0]},
+  "layers": [
+    ["SSSSS", "SSSSS", "SSSSS", "SSSSS", "SSSSS"],
+    ["FrrrF", ".....", ".....", ".....", "T...X"],
+    ["FrrrF", "_____", "_____", "_____", "_____"],
+    ["FrrrF", "_____", "_____", "_____", "_____"],
+    ["KFKFK", "_____", "_____", "_____", "_____"]
+  ],
+  "key": {
+    "S": {"block": "minecraft:deepslate_bricks", "name": "deepslate bricks (floor)"},
+    "F": {"block": "minecraft:deepslate_bricks", "name": "deepslate bricks (portal frame)"},
+    "K": {"block": "minecraft:amethyst_block", "name": "an amethyst block (top of the frame: both corners and the middle)"},
+    "T": {"block": "alchyrift:rift_stabilizer", "name": "a rift stabilizer (front left corner)"},
+    "X": {"core": true},
+    "r": {"air": true},
+    ".": {"air": true},
+    "_": {"any": true}
+  },
+  "result": [
+    ["sssss", "sssss", "sssss", "sssss", "sssss"],
+    ["arrrd", ".....", ".....", ".....", "T...X"],
+    ["brrre", "_____", "_____", "_____", "_____"],
+    ["brrre", "_____", "_____", "_____", "_____"],
+    ["ulklv", "_____", "_____", "_____", "_____"]
+  ],
+  "result_key": {
+    "s": {"block": "minecraft:polished_blackstone_bricks"},
+    "r": {"keep": true},
+    "T": {"keep": true},
+    "X": {"keep": true},
+    ".": {"keep": true},
+    "_": {"keep": true},
+    "a": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "base"}},
+    "b": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "shaft"}},
+    "c": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "crown"}},
+    "d": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "base"}},
+    "e": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "shaft"}},
+    "g": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "crown"}},
+    "l": {"block": "alchyrift:rift_frame", "state": {"facing": "south", "part": "lintel"}},
+    "k": {"block": "alchyrift:rift_frame", "state": {"facing": "south", "part": "keystone"}},
+    "u": {"block": "alchyrift:rift_frame", "state": {"facing": "east", "part": "corner"}},
+    "v": {"block": "alchyrift:rift_frame", "state": {"facing": "west", "part": "corner"}}
+  }
+}

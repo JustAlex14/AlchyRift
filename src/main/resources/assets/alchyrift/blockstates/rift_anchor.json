@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchyrift:block/rift_anchor",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "alchyrift:block/rift_anchor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchyrift:block/rift_anchor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchyrift:block/rift_anchor",
+      "y": 270
+    }
+  }
+}

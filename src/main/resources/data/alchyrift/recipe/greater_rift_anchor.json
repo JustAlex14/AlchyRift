@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BRB",
+    "HNH",
+    "CRC"
+  ],
+  "key": {
+    "B": "minecraft:amethyst_block",
+    "C": "minecraft:crying_obsidian",
+    "H": "minecraft:shulker_shell",
+    "N": "alchyrift:rift_anchor",
+    "R": "alchyrift:rift_eye"
+  },
+  "result": {
+    "id": "alchyrift:greater_rift_anchor",
+    "count": 1
+  }
+}

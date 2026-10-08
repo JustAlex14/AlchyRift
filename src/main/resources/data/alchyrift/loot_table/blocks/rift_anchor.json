@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alchyrift:rift_anchor",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "source": "block_entity",
+              "include": [
+                "alchyrift:bound_room",
+                "alchyrift:bound_gate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "CEC",
+    " S "
+  ],
+  "key": {
+    "C": "minecraft:crying_obsidian",
+    "E": "minecraft:ender_eye",
+    "S": "alchyrift:rift_shard"
+  },
+  "result": {
+    "id": "alchyrift:rift_eye",
+    "count": 1
+  }
+}

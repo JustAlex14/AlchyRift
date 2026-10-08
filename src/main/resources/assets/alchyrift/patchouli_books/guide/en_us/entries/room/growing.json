@@ -1,0 +1,18 @@
+{
+  "name": "More Room",
+  "icon": "alchyrift:void_seed",
+  "category": "alchyrift:room",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:void_seed",
+      "text": "A $(item)void seed$() is a rift eye that was told to grow. On the gate, $(thing)Expand$() spends seeds and pushes the walls out. Whatever I built stays where it was."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Price",
+      "text": "One seed takes the room to two chunks a side. Three more, and a $(thing)nether star$(), take it to three.$(br2)Each step costs more than the last. Even nowhere, it seems, charges for land."
+    }
+  ]
+}

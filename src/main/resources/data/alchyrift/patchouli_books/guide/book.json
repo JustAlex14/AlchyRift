@@ -1,0 +1,17 @@
+{
+  "name": "item.alchyrift.guide",
+  "landing_text": "info.alchyrift.guide.landing",
+  "version": 1,
+  "creative_tab": "alchyrift:main",
+  "use_resource_pack": true,
+  "i18n": true,
+  "model": "alchyrift:notebook",
+  "show_progress": false,
+  "open_sound": "minecraft:block.amethyst_block.resonate",
+  "flip_sound": "minecraft:block.amethyst_block.chime",
+  "macros": {
+    "$(item)": "$(#6A2FB8)",
+    "$(thing)": "$(#1C6E6E)"
+  },
+  "book_texture": "alchyrift:textures/gui/notebook.png"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "CRC",
+    "BYB",
+    "CSC"
+  ],
+  "key": {
+    "B": "minecraft:amethyst_block",
+    "C": "minecraft:crying_obsidian",
+    "R": "alchyrift:rift_eye",
+    "S": "alchyrift:rift_shard",
+    "Y": "alchyrift:rift_relay"
+  },
+  "result": {
+    "id": "alchyrift:greater_rift_relay",
+    "count": 1
+  }
+}

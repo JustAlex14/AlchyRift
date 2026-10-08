@@ -1,0 +1,14 @@
+{
+  "type": "alchyrift:rift_void",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "alchyrift:rift_void",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        {"block": "minecraft:air", "height": 1}
+      ]
+    }
+  }
+}

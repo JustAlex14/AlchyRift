@@ -1,0 +1,18 @@
+{
+  "name": "Rooms, Names, Guests",
+  "icon": "minecraft:name_tag",
+  "category": "alchyrift:door",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Many Rooms",
+      "text": "I can make as many rooms as I like, and name them. The gate lists them. It lists my other gates too.$(br2)A room I no longer want can be $(thing)deleted$() from that list. Everything in it goes with it. It asks me twice, and it should."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Guests",
+      "text": "A room can be shared with someone, by name, and they can then open a gate of their own onto it.$(br2)I wrote that down because it works. I have had no one to try it with."
+    }
+  ]
+}

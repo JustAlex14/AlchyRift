@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "APA",
+    " A "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "P": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "alchyrift:void_pearl",
+    "count": 2
+  }
+}

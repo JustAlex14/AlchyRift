@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "alchyrift:block/rift_port"
+  }
+}

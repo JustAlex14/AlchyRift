@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "alchyrift:block/fluid_conduit_item"
+  }
+}

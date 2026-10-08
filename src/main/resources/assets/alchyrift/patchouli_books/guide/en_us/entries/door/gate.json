@@ -1,0 +1,45 @@
+{
+  "name": "The Rift Gate",
+  "icon": "alchyrift:rift_anchor",
+  "category": "alchyrift:door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_anchor",
+      "text": "The $(item)rift anchor$() holds the far end of the door. It is the costly part. It remembers where it leads, even when I dig it up and carry it somewhere else."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_stabilizer",
+      "text": "The $(item)stabilizer$() keeps the tear from closing on me, or from opening further. I have never learned which of the two it does more."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Rift Gate",
+      "multiblock_id": "alchyrift:rift_gate",
+      "enable_visualize": true,
+      "text": "Stone bricks. Anchor front right, stabilizer front left."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Building It",
+      "text": "I wanted a crack of my own, out of the cave and under a sky. After many frames that held nothing, this one did.$(br2)Three by three of stone brick. At the far end, pillars three high with an amethyst block across the top. Lay the last brick and it changes by itself. The first time, I ran."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Choosing",
+      "text": "Use the anchor and it asks where to: a $(thing)room$() of mine, old or new, or another gate I own.$(br2)A gate is set $(thing)once$(). Choose with care. Break the anchor, place it again, and it still remembers."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Opening",
+      "text": "It does not open gently. There is a blast, and it throws me back every time.$(br2)Then the floor turns, stone by stone, into the ground of the other side. Void stone, for a room. The far place leaks through."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Looking In",
+      "text": "A small crack hangs over the stabilizer. If I stare into it for a couple of breaths, the room shows itself in small, with whoever is in it.$(br2)I check before I step through. Old habit."
+    }
+  ]
+}

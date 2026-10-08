@@ -1,0 +1,18 @@
+{
+  "name": "Through the Door",
+  "icon": "alchyrift:rift_port",
+  "category": "alchyrift:supply",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_port",
+      "text": "A $(item)rift port$() goes inside the room. Conduits against it are joined to the conduits against the gate outside. Any block of the gate will do."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "One Line",
+      "text": "Outside: a chest, a conduit pulling from it, touching the gate. Inside: a port, a conduit, a chest.$(br2)That is all. The bread I baked out there is on my table in here. Every gate onto a room feeds that room's ports."
+    }
+  ]
+}

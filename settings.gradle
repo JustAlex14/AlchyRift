@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        maven { url = 'https://maven.neoforged.net/releases' }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+// AlchyX (the multiblock library) lives in its own repository next to this one. includeBuild makes Gradle build it
+// from source and use it for "com.lealex:alchyx" below, so both can be edited together without publishing.
+// Without the folder, Gradle looks for a published com.lealex:alchyx in the repositories instead.
+if (file('../AlchyX').exists()) {
+    includeBuild('../AlchyX')
+}
+
+rootProject.name = 'AlchyRift'

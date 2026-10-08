@@ -1,0 +1,124 @@
+{
+ "textures": {
+  "stone": "alchyrift:block/rift_stone",
+  "crystal": "alchyrift:block/fluid_conduit_band",
+  "lit": "alchyrift:block/fluid_conduit_pull",
+  "particle": "alchyrift:block/rift_stone"
+ },
+ "elements": [
+  {
+   "from": [
+    7.1,
+    11,
+    0.9
+   ],
+   "to": [
+    8.9,
+    15.5,
+    2.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lit"
+    },
+    "south": {
+     "texture": "#lit"
+    },
+    "east": {
+     "texture": "#lit"
+    },
+    "west": {
+     "texture": "#lit"
+    },
+    "up": {
+     "texture": "#lit"
+    },
+    "down": {
+     "texture": "#lit"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     8,
+     1.75
+    ],
+    "axis": "z",
+    "angle": -45
+   }
+  },
+  {
+   "from": [
+    7.1,
+    11,
+    1.3
+   ],
+   "to": [
+    8.9,
+    14.8,
+    3.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lit"
+    },
+    "south": {
+     "texture": "#lit"
+    },
+    "east": {
+     "texture": "#lit"
+    },
+    "west": {
+     "texture": "#lit"
+    },
+    "up": {
+     "texture": "#lit"
+    },
+    "down": {
+     "texture": "#lit"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     8,
+     2.15
+    ],
+    "axis": "z",
+    "angle": 45
+   }
+  },
+  {
+   "from": [
+    7.2,
+    0.8,
+    0.7
+   ],
+   "to": [
+    8.8,
+    5,
+    2.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lit"
+    },
+    "south": {
+     "texture": "#lit"
+    },
+    "east": {
+     "texture": "#lit"
+    },
+    "west": {
+     "texture": "#lit"
+    },
+    "up": {
+     "texture": "#lit"
+    },
+    "down": {
+     "texture": "#lit"
+    }
+   }
+  }
+ ]
+}

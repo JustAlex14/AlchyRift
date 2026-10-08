@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " S ",
+    "SAS",
+    " S "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "S": "alchyrift:rift_shard"
+  },
+  "result": {
+    "id": "alchyrift:rift_filter",
+    "count": 2
+  }
+}

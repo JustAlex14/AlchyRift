@@ -1,0 +1,33 @@
+{
+  "name": "Read This First",
+  "icon": "minecraft:writable_book",
+  "category": "alchyrift:leaving",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Banished",
+      "text": "I kept the accounts of a house I believed was mine too. One winter the people I had trusted with everything put their names to a paper, and I was walked beyond the border of the only land I knew.$(br2)I will not write what they did. They know."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Cave",
+      "text": "I walked until the roads gave out, and went underground because the rain could not follow me there. I wanted a shelter. Nothing more.$(br2)Far down, past the last of the ore, the dark had a $(thing)crack$() in it. Not in the rock. In the air. There were stars behind it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Deeper",
+      "text": "I should have turned back. Something asked me not to. Not quite a voice: a feeling with a direction to it. $(thing)Deeper$().$(br2)So I stayed, and I prodded at the thing with whatever I had, for longer than I like to admit."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Crude Work",
+      "text": "I had no teacher and no books. I tried pearls, stone, crystal, anything in my pack, and I wrote down whatever did not kill me.$(br2)A man guessing in the dark made all of this. It works."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "How to Read It",
+      "text": "Each chapter is one thing I needed, and how I came by it. The $(l:door/gate)door$() first, then the $(l:room/inside)room$() behind it, then the $(l:supply/conduits)supply lines$(), because an empty world feeds no one.$(br2)The last chapter is not instructions. Read it anyway."
+    }
+  ]
+}

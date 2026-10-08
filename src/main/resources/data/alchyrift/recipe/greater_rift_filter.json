@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " A ",
+    "VFV",
+    " A "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "F": "alchyrift:rift_filter",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:greater_rift_filter",
+    "count": 1
+  }
+}

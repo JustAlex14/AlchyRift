@@ -1,0 +1,94 @@
+{
+ "variants": {
+  "facing=north,part=base": {
+   "model": "alchyrift:block/rift_frame_base"
+  },
+  "facing=east,part=base": {
+   "model": "alchyrift:block/rift_frame_base",
+   "y": 90
+  },
+  "facing=south,part=base": {
+   "model": "alchyrift:block/rift_frame_base",
+   "y": 180
+  },
+  "facing=west,part=base": {
+   "model": "alchyrift:block/rift_frame_base",
+   "y": 270
+  },
+  "facing=north,part=shaft": {
+   "model": "alchyrift:block/rift_frame_shaft"
+  },
+  "facing=east,part=shaft": {
+   "model": "alchyrift:block/rift_frame_shaft",
+   "y": 90
+  },
+  "facing=south,part=shaft": {
+   "model": "alchyrift:block/rift_frame_shaft",
+   "y": 180
+  },
+  "facing=west,part=shaft": {
+   "model": "alchyrift:block/rift_frame_shaft",
+   "y": 270
+  },
+  "facing=north,part=crown": {
+   "model": "alchyrift:block/rift_frame_crown"
+  },
+  "facing=east,part=crown": {
+   "model": "alchyrift:block/rift_frame_crown",
+   "y": 90
+  },
+  "facing=south,part=crown": {
+   "model": "alchyrift:block/rift_frame_crown",
+   "y": 180
+  },
+  "facing=west,part=crown": {
+   "model": "alchyrift:block/rift_frame_crown",
+   "y": 270
+  },
+  "facing=north,part=corner": {
+   "model": "alchyrift:block/rift_frame_corner"
+  },
+  "facing=east,part=corner": {
+   "model": "alchyrift:block/rift_frame_corner",
+   "y": 90
+  },
+  "facing=south,part=corner": {
+   "model": "alchyrift:block/rift_frame_corner",
+   "y": 180
+  },
+  "facing=west,part=corner": {
+   "model": "alchyrift:block/rift_frame_corner",
+   "y": 270
+  },
+  "facing=north,part=lintel": {
+   "model": "alchyrift:block/rift_frame_lintel"
+  },
+  "facing=east,part=lintel": {
+   "model": "alchyrift:block/rift_frame_lintel",
+   "y": 90
+  },
+  "facing=south,part=lintel": {
+   "model": "alchyrift:block/rift_frame_lintel",
+   "y": 180
+  },
+  "facing=west,part=lintel": {
+   "model": "alchyrift:block/rift_frame_lintel",
+   "y": 270
+  },
+  "facing=north,part=keystone": {
+   "model": "alchyrift:block/rift_frame_keystone"
+  },
+  "facing=east,part=keystone": {
+   "model": "alchyrift:block/rift_frame_keystone",
+   "y": 90
+  },
+  "facing=south,part=keystone": {
+   "model": "alchyrift:block/rift_frame_keystone",
+   "y": 180
+  },
+  "facing=west,part=keystone": {
+   "model": "alchyrift:block/rift_frame_keystone",
+   "y": 270
+  }
+ }
+}

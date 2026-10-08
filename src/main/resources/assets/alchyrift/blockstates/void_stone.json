@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "alchyrift:block/void_stone",
+        "weight": 6
+      },
+      {
+        "model": "alchyrift:block/void_stone_cracked",
+        "weight": 1
+      }
+    ]
+  }
+}

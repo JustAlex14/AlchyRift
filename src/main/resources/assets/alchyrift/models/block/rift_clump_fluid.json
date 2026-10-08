@@ -1,0 +1,196 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "crystal": "alchyrift:block/fluid_conduit_pull",
+  "particle": "alchyrift:block/fluid_conduit_pull"
+ },
+ "elements": [
+  {
+   "from": [
+    4.5,
+    8.5,
+    -2
+   ],
+   "to": [
+    7,
+    11.5,
+    2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#crystal"
+    },
+    "south": {
+     "texture": "#crystal"
+    },
+    "east": {
+     "texture": "#crystal"
+    },
+    "west": {
+     "texture": "#crystal"
+    },
+    "up": {
+     "texture": "#crystal"
+    },
+    "down": {
+     "texture": "#crystal"
+    }
+   },
+   "rotation": {
+    "origin": [
+     5.75,
+     10,
+     0
+    ],
+    "axis": "z",
+    "angle": 22.5
+   }
+  },
+  {
+   "from": [
+    9,
+    4.5,
+    -2.5
+   ],
+   "to": [
+    11.5,
+    7.5,
+    1.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#crystal"
+    },
+    "south": {
+     "texture": "#crystal"
+    },
+    "east": {
+     "texture": "#crystal"
+    },
+    "west": {
+     "texture": "#crystal"
+    },
+    "up": {
+     "texture": "#crystal"
+    },
+    "down": {
+     "texture": "#crystal"
+    }
+   },
+   "rotation": {
+    "origin": [
+     10.25,
+     6,
+     0
+    ],
+    "axis": "z",
+    "angle": -22.5
+   }
+  },
+  {
+   "from": [
+    9.5,
+    9,
+    -1.5
+   ],
+   "to": [
+    11.5,
+    11.5,
+    1
+   ],
+   "faces": {
+    "north": {
+     "texture": "#crystal"
+    },
+    "south": {
+     "texture": "#crystal"
+    },
+    "east": {
+     "texture": "#crystal"
+    },
+    "west": {
+     "texture": "#crystal"
+    },
+    "up": {
+     "texture": "#crystal"
+    },
+    "down": {
+     "texture": "#crystal"
+    }
+   },
+   "rotation": {
+    "origin": [
+     10.5,
+     10.25,
+     0
+    ],
+    "axis": "z",
+    "angle": 45
+   }
+  },
+  {
+   "from": [
+    4.5,
+    4.5,
+    -1
+   ],
+   "to": [
+    6.5,
+    6.5,
+    1
+   ],
+   "faces": {
+    "north": {
+     "texture": "#crystal"
+    },
+    "south": {
+     "texture": "#crystal"
+    },
+    "east": {
+     "texture": "#crystal"
+    },
+    "west": {
+     "texture": "#crystal"
+    },
+    "up": {
+     "texture": "#crystal"
+    },
+    "down": {
+     "texture": "#crystal"
+    }
+   }
+  },
+  {
+   "from": [
+    7,
+    7,
+    0
+   ],
+   "to": [
+    9,
+    9,
+    3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#crystal"
+    },
+    "south": {
+     "texture": "#crystal"
+    },
+    "east": {
+     "texture": "#crystal"
+    },
+    "west": {
+     "texture": "#crystal"
+    },
+    "up": {
+     "texture": "#crystal"
+    },
+    "down": {
+     "texture": "#crystal"
+    }
+   }
+  }
+ ]
+}

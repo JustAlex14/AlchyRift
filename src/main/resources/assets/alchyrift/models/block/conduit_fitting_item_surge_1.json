@@ -1,0 +1,51 @@
+{
+ "textures": {
+  "stone": "alchyrift:block/rift_stone",
+  "crystal": "alchyrift:block/item_conduit_band",
+  "lit": "alchyrift:block/item_conduit_pull",
+  "particle": "alchyrift:block/rift_stone"
+ },
+ "elements": [
+  {
+   "from": [
+    7.1,
+    11,
+    0.9
+   ],
+   "to": [
+    8.9,
+    15.5,
+    2.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lit"
+    },
+    "south": {
+     "texture": "#lit"
+    },
+    "east": {
+     "texture": "#lit"
+    },
+    "west": {
+     "texture": "#lit"
+    },
+    "up": {
+     "texture": "#lit"
+    },
+    "down": {
+     "texture": "#lit"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     8,
+     1.75
+    ],
+    "axis": "z",
+    "angle": -45
+   }
+  }
+ ]
+}

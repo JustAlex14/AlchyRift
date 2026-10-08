@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OSO",
+    "SRS",
+    "OCO"
+  ],
+  "key": {
+    "C": "minecraft:crying_obsidian",
+    "O": "minecraft:obsidian",
+    "R": "alchyrift:rift_eye",
+    "S": "alchyrift:rift_shard"
+  },
+  "result": {
+    "id": "alchyrift:rift_anchor",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OAO",
+    "AVA",
+    "OAO"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "O": "minecraft:obsidian",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:rift_shard",
+    "count": 8
+  }
+}

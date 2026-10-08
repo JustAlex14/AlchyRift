@@ -1,0 +1,38 @@
+{
+  "name": "The Eye",
+  "icon": "alchyrift:rift_eye",
+  "category": "alchyrift:eye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Ceiling",
+      "text": "I wrote four walls and moved on quickly. There is no ceiling.$(br2)Above the room there is an $(thing)eye$(). It is very large, and very far, and it is open."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "It Watches",
+      "text": "It follows me across the floor. Slowly, the way you would watch an ant you had no plans for. Now and then it blinks.$(br2)When I look straight up at it, it $(thing)narrows$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "No One",
+      "text": "I was weighed once, by people, and sent away. I came here so that nothing would weigh me again.$(br2)I built a world with nobody in it. I did not build the eye."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Call",
+      "text": "At the walls I feel it again: the thing from the cave, the one that said $(thing)deeper$(). It never left. It only waited until I had built it a door.$(br2)It pulls the way a high edge pulls. Out there is more of the nowhere I wanted. No walls, no gate."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What It Asks",
+      "text": "Every bucket I bring in is a thread to the world I left. The pull asks me, patiently, to cut them.$(br2)To stop importing. To stop needing. To walk into the wall without choosing where it lets me out."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "For Now",
+      "text": "I am happy here. I want that written in my own hand, while it is still my hand.$(br2)But I keep the water coming. And I have stopped asking who it was, in that cave, that wanted me to dig."
+    }
+  ]
+}

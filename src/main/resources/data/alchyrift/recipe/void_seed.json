@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VBV",
+    "BRB",
+    "VBV"
+  ],
+  "key": {
+    "B": "minecraft:amethyst_block",
+    "R": "alchyrift:rift_eye",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:void_seed",
+    "count": 1
+  }
+}

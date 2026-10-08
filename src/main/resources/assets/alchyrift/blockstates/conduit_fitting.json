@@ -1,0 +1,979 @@
+{
+ "multipart": [
+  {
+   "when": {
+    "facing": "north",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3"
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "item",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "item",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_greater_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "item",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_1",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "item",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_2",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "item",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_item_surge_3",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3"
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "fluid",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "fluid",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_greater_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "fluid",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_1",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "fluid",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_2",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "fluid",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_fluid_surge_3",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3"
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "up",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "energy",
+    "sieve": "plain"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "energy",
+    "sieve": "greater"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_greater_sieve",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "energy",
+    "surge": "1"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_1",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "energy",
+    "surge": "2"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_2",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "down",
+    "kind": "energy",
+    "surge": "3"
+   },
+   "apply": {
+    "model": "alchyrift:block/conduit_fitting_energy_surge_3",
+    "x": 90
+   }
+  }
+ ]
+}

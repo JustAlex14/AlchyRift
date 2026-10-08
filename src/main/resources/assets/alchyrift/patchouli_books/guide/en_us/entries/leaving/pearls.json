@@ -1,0 +1,28 @@
+{
+  "name": "Three Things",
+  "icon": "alchyrift:void_pearl",
+  "category": "alchyrift:leaving",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Trick",
+      "text": "Near the crack, an ender pearl would not fly straight. It leaned toward it.$(br2)Throw a pearl and for one blink you are $(thing)nowhere$(), then the world takes you back. The crack was that blink, held open. I wanted one I could carry out of the cave."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:void_pearl",
+      "text": "Amethyst holds a pearl still. Four shards around one and it stops wanting to go anywhere. It darkens, it cracks, and in the crack there are $(thing)stars$(), like the cave's. Then it splits in half: two $(item)void pearls$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_shard",
+      "text": "Obsidian set around a void pearl splits along lines that were not there before. The $(item)rift shards$() stay warm, and the light in them never settles. Eight from each attempt."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_eye",
+      "text": "An eye of ender looks for a place. Bound in shards and crying obsidian, the $(item)rift eye$() looks for a place that does not exist yet. It took me the longest to find."
+    }
+  ]
+}

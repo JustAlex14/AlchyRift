@@ -1,0 +1,28 @@
+{
+  "name": "Sieves and Surges",
+  "icon": "alchyrift:rift_filter",
+  "category": "alchyrift:supply",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_filter",
+      "text": "A $(item)rift sieve$() on a conduit's end chooses what passes. I name things from what I carry: only these, or all but these. A bare hand on that end opens it again."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:greater_rift_filter",
+      "text": "The $(item)greater sieve$() also tells a thing from its twin: the enchanted from the plain, the named from the nameless."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fluids",
+      "text": "On a fluid conduit a sieve works the same way, and I show it the fluid's $(thing)bucket$().$(br2)A sieve that names nothing lets everything through. Breaking the conduit gives the sieve back."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:surge_crystal",
+      "text": "A $(item)surge crystal$() on a pulling end makes it move four times as much. Up to three on one end. Crouch with the tuner to take them back."
+    }
+  ]
+}

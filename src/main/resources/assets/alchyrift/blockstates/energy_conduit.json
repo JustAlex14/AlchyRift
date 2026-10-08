@@ -1,0 +1,168 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_core"
+   }
+  },
+  {
+   "when": {
+    "north": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm"
+   }
+  },
+  {
+   "when": {
+    "north": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert"
+   }
+  },
+  {
+   "when": {
+    "north": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract"
+   }
+  },
+  {
+   "when": {
+    "east": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "east": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "east": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "south": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "south": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "south": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "west": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "west": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "west": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "up": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "up": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "up": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract",
+    "x": 270
+   }
+  },
+  {
+   "when": {
+    "down": "conduit"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_arm",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "down": "insert"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_insert",
+    "x": 90
+   }
+  },
+  {
+   "when": {
+    "down": "extract"
+   },
+   "apply": {
+    "model": "alchyrift:block/energy_conduit_extract",
+    "x": 90
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Conduits",
+  "icon": "alchyrift:item_conduit",
+  "category": "alchyrift:supply",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Admission",
+      "text": "They put me out of my homeland, and I answered by leaving the world. Then I needed its water. Its wheat. Its coal.$(br2)So I ran lines back to it. I tell myself that a pipe is not a visit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:item_conduit",
+      "text": "$(item)Item conduits$(): roots of obsidian with light crawling in them. They join each other and whatever holds things. Eight at a time."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:fluid_conduit",
+      "text": "$(item)Fluid conduits$(), the same with lapis. Water was the first thing I sent through. I stood and watched it arrive, like a fool."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:energy_conduit",
+      "text": "$(item)Energy conduits$(), with gold. The three kinds never join one another: a line carries one sort of thing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_tuner",
+      "text": "The $(item)rift tuner$(). An end $(thing)pushes$() at first. One use makes it $(thing)pull$(), the next $(thing)seals$() it, the next opens it again. Nothing moves until an end pulls."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "How Much",
+      "text": "A pulling end takes sixteen items, a bucket of fluid or 4,000 of energy every half second, and hands it to each pushing end in turn.$(br2)From a furnace it takes what is finished. Into one, it puts fuel and ore each where it belongs."
+    }
+  ]
+}

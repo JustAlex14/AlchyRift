@@ -1,0 +1,35 @@
+{
+  "name": "The Greater Gate",
+  "icon": "alchyrift:greater_rift_anchor",
+  "category": "alchyrift:greater",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:greater_rift_anchor",
+      "text": "The $(item)greater anchor$() is built around a plain one, with shulker shells from the far cities. Whatever the plain anchor led to is $(thing)lost$() in the making."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Greater Rift Gate",
+      "multiblock_id": "alchyrift:greater_rift_gate",
+      "enable_visualize": true,
+      "text": "Deepslate bricks. Amethyst on the top: corners and middle."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What It Adds",
+      "text": "Its rift is three wide and three tall, and it gapes. More to the point, where it leads can be $(thing)changed$() whenever I like.$(br2)When it closes, it falls in on itself. When it opens again, the floor changes with it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Door to Door",
+      "text": "A gate can lead to another gate of mine instead of a room. Its floor grows grass if the far gate stands in the overworld, netherrack if it stands in the Nether.$(br2)It is one way. For the way back, the far gate must be set too."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Lightning",
+      "text": "It throws lightning from its frame into the tear. The lesser gate does too, less often. A switch on the gate quiets it.$(br2)I leave it on. It is the only weather I have."
+    }
+  ]
+}

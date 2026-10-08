@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "SVS",
+    "OCO"
+  ],
+  "key": {
+    "C": "minecraft:crying_obsidian",
+    "O": "minecraft:obsidian",
+    "S": "alchyrift:rift_shard",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:rift_stabilizer",
+    "count": 1
+  }
+}

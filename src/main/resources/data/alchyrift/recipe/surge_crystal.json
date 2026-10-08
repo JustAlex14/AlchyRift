@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " G ",
+    "SVS",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:glowstone_dust",
+    "S": "alchyrift:rift_shard",
+    "V": "alchyrift:void_pearl"
+  },
+  "result": {
+    "id": "alchyrift:surge_crystal",
+    "count": 1
+  }
+}

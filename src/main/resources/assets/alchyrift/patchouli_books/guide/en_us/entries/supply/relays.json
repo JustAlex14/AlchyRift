@@ -1,0 +1,23 @@
+{
+  "name": "Relays",
+  "icon": "alchyrift:rift_relay",
+  "category": "alchyrift:supply",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:rift_relay",
+      "text": "A $(item)rift relay$() is a crack I keep in a cage. Tuner on one, then on another, and the conduits around both are one line. They reach $(thing)64 blocks$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchyrift:greater_rift_relay",
+      "text": "The $(item)greater relay$() reaches anywhere, other worlds included. When something passes, its crack tears wide open. I do not stand close."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Groups",
+      "text": "A relay takes up to eight links, so they chain and branch. With the tuner in hand I see the links as drifting motes.$(br2)The same two again removes that link. Crouching and using the tuner on a relay removes all of its links."
+    }
+  ]
+}
