@@ -1,0 +1,316 @@
+{
+  "letterbox": true,
+  "shots": [
+    {
+      "ticks": 180,
+      "orbit": {
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "radius": 66,
+        "height": 24,
+        "from": 160,
+        "to": 210,
+        "look_height": 2
+      },
+      "fade_in": 30
+    },
+    {
+      "ticks": 170,
+      "points": [
+        [
+          12,
+          6,
+          -5
+        ],
+        [
+          4,
+          3,
+          -11
+        ],
+        [
+          0,
+          1.7,
+          -15
+        ]
+      ],
+      "look": [
+        0,
+        1.5,
+        -18
+      ]
+    },
+    {
+      "ticks": 150,
+      "points": [
+        [
+          0,
+          1.7,
+          -15.5
+        ],
+        [
+          0,
+          1.7,
+          -19.5
+        ],
+        [
+          3,
+          2.2,
+          -22
+        ]
+      ],
+      "look": [
+        6,
+        0,
+        -25.5
+      ],
+      "fade_out": 10
+    },
+    {
+      "ticks": 200,
+      "orbit": {
+        "center": [
+          0,
+          0,
+          -6
+        ],
+        "radius": 9,
+        "height": 5,
+        "from": 20,
+        "to": 120,
+        "look_height": 2.5
+      },
+      "fade_in": 10
+    },
+    {
+      "ticks": 170,
+      "points": [
+        [
+          -17,
+          4,
+          2
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          17,
+          4,
+          2
+        ]
+      ],
+      "looks": [
+        [
+          -17,
+          1.5,
+          -6
+        ],
+        [
+          0,
+          2,
+          -6
+        ],
+        [
+          17,
+          1.5,
+          -6
+        ]
+      ]
+    },
+    {
+      "ticks": 150,
+      "orbit": {
+        "center": [
+          -15,
+          0,
+          12
+        ],
+        "radius": 9,
+        "height": 6,
+        "from": -40,
+        "to": 40,
+        "look_height": 0.5
+      }
+    },
+    {
+      "ticks": 150,
+      "points": [
+        [
+          6,
+          3,
+          17
+        ],
+        [
+          14,
+          2.5,
+          16
+        ],
+        [
+          22,
+          3,
+          17
+        ]
+      ],
+      "looks": [
+        [
+          8,
+          1.5,
+          12
+        ],
+        [
+          14,
+          1.5,
+          12
+        ],
+        [
+          20,
+          1.5,
+          12
+        ]
+      ]
+    },
+    {
+      "ticks": 160,
+      "points": [
+        [
+          24,
+          10,
+          34
+        ],
+        [
+          21,
+          11,
+          42
+        ]
+      ],
+      "look": [
+        20,
+        9,
+        48
+      ]
+    },
+    {
+      "ticks": 210,
+      "points": [
+        [
+          0,
+          3,
+          26
+        ],
+        [
+          0,
+          6,
+          40
+        ],
+        [
+          0,
+          22,
+          66
+        ]
+      ],
+      "look": [
+        0,
+        2,
+        0
+      ],
+      "ease": "out",
+      "fade_out": 45
+    }
+  ],
+  "texts": [
+    {
+      "at": 40,
+      "ticks": 110,
+      "text": "AlchyRift",
+      "style": "title",
+      "color": "#B26BFF"
+    },
+    {
+      "at": 210,
+      "ticks": 100,
+      "text": "He only wanted somewhere to go.",
+      "style": "caption"
+    },
+    {
+      "at": 550,
+      "ticks": 110,
+      "text": "A door to nowhere you know.",
+      "style": "caption"
+    },
+    {
+      "at": 890,
+      "ticks": 100,
+      "text": "Nothing grows there. So he brought it.",
+      "style": "caption"
+    },
+    {
+      "at": 1190,
+      "ticks": 110,
+      "text": "Something watches from the ceiling.",
+      "style": "caption"
+    },
+    {
+      "at": 1400,
+      "ticks": 120,
+      "text": "AlchyRift",
+      "style": "title",
+      "color": "#B26BFF"
+    },
+    {
+      "at": 1425,
+      "ticks": 95,
+      "text": "Leave the world behind.",
+      "style": "subtitle"
+    }
+  ],
+  "commands": [
+    {
+      "at": 0,
+      "command": "time set midnight"
+    },
+    {
+      "at": 510,
+      "command": "alchyx showcase build alchyrift:greater_rift_gate ~ ~ ~-6 south"
+    },
+    {
+      "at": 700,
+      "command": "alchyx showcase build alchyrift:rift_gate ~-17 ~ ~-6 south"
+    },
+    {
+      "at": 770,
+      "command": "alchyx showcase build alchyrift:rift_gate ~17 ~ ~-6 south"
+    },
+    {
+      "at": 1030,
+      "command": "setblock ~8 ~1 ~12 alchyrift:rift_anchor"
+    },
+    {
+      "at": 1048,
+      "command": "setblock ~11 ~1 ~12 alchyrift:greater_rift_anchor"
+    },
+    {
+      "at": 1066,
+      "command": "setblock ~14 ~1 ~12 alchyrift:rift_stabilizer"
+    },
+    {
+      "at": 1084,
+      "command": "setblock ~17 ~1 ~12 alchyrift:rift_relay"
+    },
+    {
+      "at": 1102,
+      "command": "setblock ~20 ~1 ~12 alchyrift:greater_rift_relay"
+    },
+    {
+      "at": 1120,
+      "command": "setblock ~23 ~1 ~12 alchyrift:item_conduit"
+    },
+    {
+      "at": 1200,
+      "command": "setblock ~20 ~8 ~48 alchyrift:greater_rift_relay"
+    }
+  ]
+}

@@ -49,7 +49,7 @@ public final class GateViews {
             return new BoxWatch.Source(RoomLayout.DIMENSION, RoomLayout.origin(room.id()), RoomLayout.farCorner(room.id(), room.tier()), true, true);
         }
         GlobalPos exit = gate.getExitGate();
-        if (exit == null) return null;
+        if (exit == null || gate.exitGone(level)) return null; // no view of where a gate used to be
         return new BoxWatch.Source(exit.dimension(), exit.pos().offset(-AREA_SIDE, -AREA_BELOW, -AREA_SIDE),
                 exit.pos().offset(AREA_SIDE, AREA_ABOVE, AREA_SIDE), false, false);
     }

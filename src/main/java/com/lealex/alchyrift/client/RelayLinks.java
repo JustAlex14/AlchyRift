@@ -58,6 +58,9 @@ public final class RelayLinks {
                     level.addParticle(ParticleTypes.REVERSE_PORTAL, from.x, from.y + 0.4, from.z, 0, 0.02, 0);
                     continue;
                 }
+                // A link to a place this client has loaded that holds no relay linking back leads nowhere: not drawn
+                if (com.lealex.alchyx.link.Links.goneEntity(level, partner.pos(), entity -> entity instanceof RiftRelayBlockEntity other
+                        && other.isLinkedTo(GlobalPos.of(level.dimension(), pos)))) continue;
                 // Each link once, from its lower end, unless the other end isn't drawing (out of range or not loaded)
                 boolean otherDraws = partner.pos().asLong() < pos.asLong()
                         && Vec3.atCenterOf(partner.pos()).distanceToSqr(player.position()) <= RANGE * RANGE

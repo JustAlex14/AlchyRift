@@ -128,6 +128,17 @@ public class RiftAnchorBlockEntity extends MultiblockCoreBlockEntity {
         return exitGate;
     }
 
+    /**
+     * Server: the gate this one leads to is surely gone: out of the list of gates (broken, or its frame no longer
+     * formed), or its place is loaded and holds no gate (removed by a command). An exit whose chunk is not loaded is
+     * never judged gone. The link itself is kept: a frame repaired there opens the rift again.
+     */
+    public boolean exitGone(ServerLevel serverLevel) {
+        if (exitGate == null) return false;
+        if (RiftRooms.get(serverLevel.getServer()).gate(exitGate) == null) return true;
+        return com.lealex.alchyx.link.Links.goneEntity(serverLevel.getServer(), exitGate, entity -> entity instanceof RiftAnchorBlockEntity);
+    }
+
     /** Whether the destination has been chosen. It is chosen once. */
     public boolean isSet() {
         return roomId >= 0 || exitGate != null;
@@ -445,7 +456,7 @@ public class RiftAnchorBlockEntity extends MultiblockCoreBlockEntity {
     /** Opens the rift when the gate is formed and set, closes it otherwise. */
     private void updateRift() {
         if (!(level instanceof ServerLevel serverLevel)) return;
-        if (!isFormed() || !isSet()) {
+        if (!isFormed() || !isSet() || exitGone(serverLevel)) { // (an exit gate gone: no rift into nothing)
             closeRift(serverLevel);
             return;
         }

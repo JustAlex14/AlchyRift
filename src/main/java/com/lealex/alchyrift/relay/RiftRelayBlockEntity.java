@@ -67,13 +67,36 @@ public class RiftRelayBlockEntity extends BlockEntity {
         List<RiftRelayBlockEntity> working = new ArrayList<>();
         if (partners.isEmpty() || !(level instanceof ServerLevel serverLevel)) return working;
         GlobalPos here = GlobalPos.of(serverLevel.dimension(), worldPosition);
+        boolean dead = false;
         for (GlobalPos partner : partners) {
             RiftRelayBlockEntity other = relayAt(serverLevel, partner);
-            if (other == null || !other.partners.contains(here)) continue;
+            if (other == null || !other.partners.contains(here)) {
+                dead |= isDead(serverLevel, here, partner);
+                continue;
+            }
             if (other.getBlockState().getBlock() != getBlockState().getBlock()) continue;
             if (RiftRelayBlock.inReach(tier(), here, partner)) working.add(other);
         }
+        // a link to nothing: dropped after this (not while the network is being walked)
+        if (dead) serverLevel.getServer().execute(this::pruneDead);
         return working;
+    }
+
+    /**
+     * A partner that is surely gone: its place is loaded and holds no relay linking back here (it was broken while
+     * this relay was unloaded, by a command, or with an erased room: none of those let it unlink this end). A partner
+     * whose chunk is not loaded is never judged gone.
+     */
+    private static boolean isDead(ServerLevel from, GlobalPos here, GlobalPos partner) {
+        return com.lealex.alchyx.link.Links.goneEntity(from.getServer(), partner,
+                entity -> entity instanceof RiftRelayBlockEntity other && other.partners.contains(here));
+    }
+
+    /** Server: drops every link to a partner that is surely gone (see isDead). */
+    public void pruneDead() {
+        if (isRemoved() || partners.isEmpty() || !(level instanceof ServerLevel serverLevel)) return;
+        GlobalPos here = GlobalPos.of(serverLevel.dimension(), worldPosition);
+        if (partners.removeIf(partner -> isDead(serverLevel, here, partner))) changed();
     }
 
     private static @Nullable RiftRelayBlockEntity relayAt(ServerLevel from, GlobalPos pos) {
@@ -147,6 +170,9 @@ public class RiftRelayBlockEntity extends BlockEntity {
             synchronized (RiftRelayBlockEntity.class) {
                 CLIENT_LOADED.add(this);
             }
+        } else if (level instanceof ServerLevel serverLevel && !partners.isEmpty()) {
+            // links to relays broken while this one was away go now (after the load, when neighbours have loaded too)
+            serverLevel.getServer().execute(this::pruneDead);
         }
     }
 

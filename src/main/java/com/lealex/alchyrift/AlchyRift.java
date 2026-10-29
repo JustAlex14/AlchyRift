@@ -25,6 +25,7 @@ public class AlchyRift {
         ModRegistries.register(modEventBus);
         GateViews.register();
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        com.lealex.alchyx.config.CommonConfigSync.share(modContainer); // players on a server see its config in screens and JEI
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.addListener((RegisterCommandsEvent event) -> RiftCommands.register(event.getDispatcher()));
         NeoForge.EVENT_BUS.addListener(this::serverStarted);
