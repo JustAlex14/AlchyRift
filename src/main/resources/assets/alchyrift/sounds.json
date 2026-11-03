@@ -1,0 +1,10 @@
+{
+  "trailer_music": {
+    "sounds": [
+      {
+        "name": "alchyrift:trailer_music",
+        "stream": true
+      }
+    ]
+  }
+}

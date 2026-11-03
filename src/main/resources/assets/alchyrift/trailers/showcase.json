@@ -43,7 +43,7 @@
       ]
     },
     {
-      "ticks": 150,
+      "ticks": 160,
       "points": [
         [
           0,
@@ -52,37 +52,33 @@
         ],
         [
           0,
-          1.7,
+          1.9,
           -19.5
         ],
         [
-          3,
-          2.2,
-          -22
+          4.5,
+          2.6,
+          -22.5
         ]
       ],
-      "look": [
-        6,
-        0,
-        -25.5
-      ],
-      "fade_out": 10
-    },
-    {
-      "ticks": 200,
-      "orbit": {
-        "center": [
-          0,
-          0,
-          -6
+      "looks": [
+        [
+          3,
+          0.5,
+          -24
         ],
-        "radius": 9,
-        "height": 5,
-        "from": 20,
-        "to": 120,
-        "look_height": 2.5
-      },
-      "fade_in": 10
+        [
+          6,
+          -1.5,
+          -25.5
+        ],
+        [
+          6,
+          -4.5,
+          -25.5
+        ]
+      ],
+      "fade_out": 12
     },
     {
       "ticks": 170,
@@ -119,10 +115,26 @@
           1.5,
           -6
         ]
-      ]
+      ],
+      "fade_in": 10
     },
     {
-      "ticks": 150,
+      "ticks": 200,
+      "orbit": {
+        "center": [
+          0,
+          0,
+          -6
+        ],
+        "radius": 9,
+        "height": 5,
+        "from": 20,
+        "to": 120,
+        "look_height": 2.5
+      }
+    },
+    {
+      "ticks": 170,
       "orbit": {
         "center": [
           -15,
@@ -130,11 +142,48 @@
           12
         ],
         "radius": 9,
-        "height": 6,
-        "from": -40,
-        "to": 40,
+        "height": 5,
+        "from": -45,
+        "to": 45,
         "look_height": 0.5
       }
+    },
+    {
+      "ticks": 180,
+      "points": [
+        [
+          -35,
+          4,
+          7
+        ],
+        [
+          0,
+          9,
+          8
+        ],
+        [
+          35,
+          4,
+          7
+        ]
+      ],
+      "looks": [
+        [
+          -31,
+          0.5,
+          2.5
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          31,
+          0.5,
+          2.5
+        ]
+      ]
     },
     {
       "ticks": 150,
@@ -174,50 +223,141 @@
       ]
     },
     {
-      "ticks": 160,
-      "points": [
-        [
-          24,
-          10,
-          34
-        ],
-        [
-          21,
-          11,
-          42
-        ]
-      ],
-      "look": [
-        20,
-        9,
-        48
-      ]
-    },
-    {
-      "ticks": 210,
+      "ticks": 170,
       "points": [
         [
           0,
-          3,
-          26
+          3.5,
+          7
         ],
         [
           0,
-          6,
-          40
+          2.2,
+          -1
         ],
         [
           0,
-          22,
-          66
+          1.6,
+          -6.6
         ]
       ],
       "look": [
         0,
-        2,
-        0
+        1.4,
+        -11
       ],
-      "ease": "out",
+      "ease": "in",
+      "fov": [
+        70,
+        30
+      ],
+      "fade_out": 30
+    },
+    {
+      "ticks": 200,
+      "points": [
+        [
+          1,
+          1.8,
+          1.5
+        ],
+        [
+          5,
+          2.2,
+          0.5
+        ],
+        [
+          9,
+          2.4,
+          -0.5
+        ]
+      ],
+      "looks": [
+        [
+          1,
+          0.4,
+          -6
+        ],
+        [
+          5,
+          0.6,
+          -6
+        ],
+        [
+          11,
+          0.8,
+          -6
+        ]
+      ],
+      "fade_in": 30
+    },
+    {
+      "ticks": 130,
+      "points": [
+        [
+          6.5,
+          1.9,
+          1
+        ],
+        [
+          8.5,
+          1.9,
+          1.5
+        ]
+      ],
+      "look": [
+        11,
+        0.6,
+        5
+      ],
+      "ease": "smooth"
+    },
+    {
+      "ticks": 120,
+      "points": [
+        [
+          4.5,
+          1.7,
+          2
+        ],
+        [
+          3.6,
+          1.7,
+          1.2
+        ]
+      ],
+      "look": [
+        -1,
+        1.6,
+        0.5
+      ],
+      "ease": "smooth"
+    },
+    {
+      "ticks": 230,
+      "points": [
+        [
+          5,
+          1.8,
+          0
+        ],
+        [
+          5.5,
+          5,
+          0.5
+        ],
+        [
+          6,
+          9,
+          1
+        ]
+      ],
+      "look": [
+        8,
+        69,
+        4
+      ],
+      "ease": "in",
       "fade_out": 45
     }
   ],
@@ -231,39 +371,51 @@
     },
     {
       "at": 210,
-      "ticks": 100,
-      "text": "He only wanted somewhere to go.",
-      "style": "caption"
-    },
-    {
-      "at": 550,
       "ticks": 110,
-      "text": "A door to nowhere you know.",
+      "text": "They banished me. I went where no one would look: down.",
       "style": "caption"
     },
     {
-      "at": 890,
-      "ticks": 100,
-      "text": "Nothing grows there. So he brought it.",
-      "style": "caption"
-    },
-    {
-      "at": 1190,
+      "at": 375,
       "ticks": 110,
-      "text": "Something watches from the ceiling.",
+      "text": "In a cave, something told me to dig deeper.",
       "style": "caption"
     },
     {
-      "at": 1400,
-      "ticks": 120,
+      "at": 740,
+      "ticks": 100,
+      "text": "So I built a door.",
+      "style": "caption"
+    },
+    {
+      "at": 905,
+      "ticks": 110,
+      "text": "Nothing grows in there. So I carry the world in.",
+      "style": "caption"
+    },
+    {
+      "at": 1595,
+      "ticks": 110,
+      "text": "Here, no one can send me away.",
+      "style": "caption"
+    },
+    {
+      "at": 2020,
+      "ticks": 110,
+      "text": "Something watches from the ceiling. I keep the water coming.",
+      "style": "caption"
+    },
+    {
+      "at": 2140,
+      "ticks": 90,
       "text": "AlchyRift",
       "style": "title",
       "color": "#B26BFF"
     },
     {
-      "at": 1425,
-      "ticks": 95,
-      "text": "Leave the world behind.",
+      "at": 2160,
+      "ticks": 70,
+      "text": "I am happy here.",
       "style": "subtitle"
     }
   ],
@@ -273,44 +425,473 @@
       "command": "time set midnight"
     },
     {
-      "at": 510,
-      "command": "alchyx showcase build alchyrift:greater_rift_gate ~ ~ ~-6 south"
+      "at": 2,
+      "command": "alchyx showcase build alchyrift:greater_rift_gate ~0 ~-1 ~-6 south"
     },
     {
-      "at": 700,
-      "command": "alchyx showcase build alchyrift:rift_gate ~-17 ~ ~-6 south"
+      "at": 4,
+      "command": "alchyx showcase build alchyrift:rift_gate ~-17 ~-1 ~-6 south"
     },
     {
-      "at": 770,
-      "command": "alchyx showcase build alchyrift:rift_gate ~17 ~ ~-6 south"
+      "at": 6,
+      "command": "alchyx showcase build alchyrift:rift_gate ~17 ~-1 ~-6 south"
     },
     {
-      "at": 1030,
+      "at": 8,
+      "command": "setblock ~-20 ~0 ~12 minecraft:chest[facing=east]"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.0 with minecraft:raw_iron 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.1 with minecraft:raw_copper 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.2 with minecraft:raw_gold 32"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.3 with minecraft:coal 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.4 with minecraft:beef 32"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.5 with minecraft:potato 32"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.6 with minecraft:iron_ore 32"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-20 ~0 ~12 container.7 with minecraft:coal 64"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-18 ~0 ~11 minecraft:furnace[facing=north]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-16 ~0 ~11 minecraft:furnace[facing=north]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-14 ~0 ~11 minecraft:blast_furnace[facing=north]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-12 ~0 ~11 minecraft:furnace[facing=north]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-17 ~0 ~13 minecraft:smoker[facing=south]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-15 ~0 ~13 minecraft:blast_furnace[facing=south]"
+    },
+    {
+      "at": 9,
+      "command": "setblock ~-13 ~0 ~13 minecraft:smoker[facing=south]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-19 ~0 ~12 alchyrift:item_conduit[west=extract,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-18 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,north=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-17 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,south=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-16 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,north=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-15 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,south=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-14 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,north=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-13 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,south=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-12 ~0 ~12 alchyrift:item_conduit[west=conduit,east=conduit,north=insert]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-11 ~0 ~12 alchyrift:item_conduit[west=conduit]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-20 ~0 ~10 minecraft:water_cauldron[level=3]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-10 ~0 ~10 minecraft:cauldron"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-19 ~0 ~10 alchyrift:fluid_conduit[west=extract,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-18 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-17 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-16 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-15 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-14 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-13 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-12 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-11 ~0 ~10 alchyrift:fluid_conduit[west=conduit,east=insert]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-20 ~0 ~14 minecraft:waxed_copper_bulb[lit=true]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-10 ~0 ~14 minecraft:waxed_copper_bulb[lit=true]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-19 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-18 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-17 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-16 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-15 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-14 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-13 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-12 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-11 ~0 ~14 alchyrift:energy_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-31 ~ ~2 alchyrift:rift_relay"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~-31 ~0 ~4 minecraft:chest[facing=south]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~-31 ~0 ~3 alchyrift:item_conduit[north=conduit,south=extract]"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~31 ~ ~2 alchyrift:rift_relay"
+    },
+    {
+      "at": 8,
+      "command": "setblock ~31 ~0 ~4 minecraft:barrel[facing=up]"
+    },
+    {
+      "at": 10,
+      "command": "setblock ~31 ~0 ~3 alchyrift:item_conduit[north=conduit,south=insert]"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-31 ~0 ~4 container.0 with minecraft:cobblestone 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-31 ~0 ~4 container.1 with minecraft:cobbled_deepslate 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-31 ~0 ~4 container.2 with minecraft:oak_log 64"
+    },
+    {
+      "at": 9,
+      "command": "item replace block ~-31 ~0 ~4 container.3 with minecraft:iron_ingot 32"
+    },
+    {
+      "at": 20,
+      "command": "alchyrift relay link ~-31 ~ ~2 ~31 ~ ~2"
+    },
+    {
+      "at": 14,
+      "command": "setblock ~7 ~0 ~-4 minecraft:chest[facing=west]"
+    },
+    {
+      "at": 15,
+      "command": "item replace block ~7 ~0 ~-4 container.0 with minecraft:bread 64"
+    },
+    {
+      "at": 15,
+      "command": "item replace block ~7 ~0 ~-4 container.1 with minecraft:water_bucket"
+    },
+    {
+      "at": 15,
+      "command": "item replace block ~7 ~0 ~-4 container.2 with minecraft:wheat_seeds 32"
+    },
+    {
+      "at": 15,
+      "command": "item replace block ~7 ~0 ~-4 container.3 with minecraft:apple 32"
+    },
+    {
+      "at": 16,
+      "command": "setblock ~3 ~0 ~-4 alchyrift:item_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 16,
+      "command": "setblock ~4 ~0 ~-4 alchyrift:item_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 16,
+      "command": "setblock ~5 ~0 ~-4 alchyrift:item_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 16,
+      "command": "setblock ~6 ~0 ~-4 alchyrift:item_conduit[west=conduit,east=extract]"
+    },
+    {
+      "at": 12,
       "command": "setblock ~8 ~1 ~12 alchyrift:rift_anchor"
     },
     {
-      "at": 1048,
+      "at": 12,
       "command": "setblock ~11 ~1 ~12 alchyrift:greater_rift_anchor"
     },
     {
-      "at": 1066,
+      "at": 12,
       "command": "setblock ~14 ~1 ~12 alchyrift:rift_stabilizer"
     },
     {
-      "at": 1084,
+      "at": 12,
       "command": "setblock ~17 ~1 ~12 alchyrift:rift_relay"
     },
     {
-      "at": 1102,
+      "at": 12,
       "command": "setblock ~20 ~1 ~12 alchyrift:greater_rift_relay"
     },
     {
-      "at": 1120,
+      "at": 12,
       "command": "setblock ~23 ~1 ~12 alchyrift:item_conduit"
     },
     {
-      "at": 1200,
-      "command": "setblock ~20 ~8 ~48 alchyrift:greater_rift_relay"
+      "at": 1050,
+      "command": "item replace entity @s weapon.mainhand with alchyrift:rift_tuner"
+    },
+    {
+      "at": 1235,
+      "command": "item replace entity @s weapon.mainhand with minecraft:air"
+    },
+    {
+      "at": 730,
+      "command": "alchyrift gate open ~2 ~0 ~-4"
+    },
+    {
+      "at": 535,
+      "command": "alchyrift gate link ~-16 ~0 ~-5 ~18 ~0 ~-5"
+    },
+    {
+      "at": 605,
+      "command": "alchyrift gate link ~18 ~0 ~-5 ~-16 ~0 ~-5"
+    },
+    {
+      "at": 1380,
+      "command": "tp @s ~0 ~ ~-4"
+    },
+    {
+      "at": 1538,
+      "command": "alchyrift gate enter ~2 ~ ~"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~0 ~0 ~-6 minecraft:purple_bed[facing=west,part=foot]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~-1 ~0 ~-6 minecraft:purple_bed[facing=west,part=head]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~2 ~0 ~-6 minecraft:lectern[facing=south,has_book=true]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~4 ~0 ~-6 minecraft:dark_oak_slab[type=top]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~5 ~0 ~-6 minecraft:dark_oak_slab[type=top]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~4 ~1 ~-6 minecraft:candle[candles=3,lit=true]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~5 ~0 ~-5 minecraft:spruce_stairs[facing=north]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~-1 ~0 ~-5 minecraft:purple_carpet"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~-1 ~0 ~-4 minecraft:purple_carpet"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~0 ~0 ~-5 minecraft:purple_carpet"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~0 ~0 ~-4 minecraft:purple_carpet"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~1 ~0 ~-5 minecraft:purple_carpet"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~1 ~0 ~-4 minecraft:purple_carpet"
+    },
+    {
+      "at": 1547,
+      "command": "setblock ~7 ~0 ~-6 alchyrift:rift_port"
+    },
+    {
+      "at": 1548,
+      "command": "setblock ~8 ~0 ~-6 alchyrift:item_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 1548,
+      "command": "setblock ~9 ~0 ~-6 alchyrift:item_conduit[west=conduit,east=insert]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~10 ~0 ~-6 minecraft:barrel[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~11 ~0 ~-6 minecraft:barrel[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~11 ~1 ~-6 minecraft:barrel[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~0 ~-6 minecraft:chest[facing=west]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~0 ~-5 minecraft:crafting_table"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~0 ~-3 minecraft:bookshelf"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~1 ~-3 minecraft:bookshelf"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~11 ~2 ~-6 minecraft:lantern"
+    },
+    {
+      "at": 1547,
+      "command": "setblock ~8 ~0 ~5 alchyrift:rift_port"
+    },
+    {
+      "at": 1548,
+      "command": "setblock ~9 ~0 ~5 alchyrift:fluid_conduit[west=conduit,east=conduit]"
+    },
+    {
+      "at": 1548,
+      "command": "setblock ~10 ~0 ~5 alchyrift:fluid_conduit[west=conduit,east=insert]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~11 ~0 ~5 minecraft:water_cauldron[level=3]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~0 ~5 minecraft:barrel[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~0 ~2 minecraft:crying_obsidian"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~12 ~1 ~2 minecraft:amethyst_cluster[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~11 ~0 ~3 minecraft:amethyst_cluster[facing=up]"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~6 ~0 ~4 minecraft:lantern"
+    },
+    {
+      "at": 1546,
+      "command": "setblock ~1 ~0 ~4 minecraft:lantern"
     }
-  ]
+  ],
+  "music": "alchyrift:trailer_music"
 }
