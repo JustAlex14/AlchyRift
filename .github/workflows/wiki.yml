@@ -25,8 +25,8 @@ jobs:
           git clone "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
           rsync -a --delete --exclude .git docs/wiki/ wiki/
           cd wiki
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Alex"
+          git config user.email "alexis.gabriel.manso@gmail.com"
           git add -A
           if git diff --cached --quiet; then
             echo "The wiki is already up to date."
