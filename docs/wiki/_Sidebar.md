@@ -7,6 +7,7 @@
 - [Conduits](Conduits)
 - [Relays and Ports](Relays-and-Ports)
 - [Configuration](Configuration)
+- [Modpack Guide](Modpack-Guide)
 
 **Related**
 

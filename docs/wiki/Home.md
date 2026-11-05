@@ -10,6 +10,7 @@ AlchyRift is a rift mod for NeoForge (Minecraft 26.1.2), built on [AlchyX](https
 - [Conduits](Conduits): item, fluid and energy lines, the tuner, sieves and surge crystals
 - [Relays and Ports](Relays-and-Ports): wireless links and lines through a gate
 - [Configuration](Configuration)
+- [Modpack Guide](Modpack-Guide): recipes, tags, costs and shapes for pack makers
 
 ## Requirements
 
